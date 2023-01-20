@@ -1,0 +1,104 @@
+
+/* Gerais */
+body {
+    font-family: 'Poppins',sans-serif;
+  }
+  
+  .row {
+    margin: 0;
+  }
+  
+  .container {
+    padding: 70px 0;
+  }
+  
+  p, li {
+    color: #444;
+    font-size: 24px;
+  }
+  /*NavBar*/
+  header, .navbar ,.dropdown-menu{
+    background-color: #051D40;
+  }
+ 
+  
+  #nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  
+  #logo {
+    width: 75px;
+    margin-left: 15px;
+  }
+  
+  .navbar-brand {
+    padding: 0;
+    color: #FFF;
+    font-family: 'Poppins',sans-serif;
+    font-size: 25px;
+  }
+  
+  .navbar-brand:hover {
+    color: #ED5B2D;
+  }
+  
+  .nav-item:hover{
+    background-color: #ED5B2D;
+    border-radius: 7px;
+  }
+
+  .dropdown-item:hover{
+    background-color: #ED5B2D;
+    border-radius: 5px;
+  }
+
+  #navbar-links a {
+    color: #FFF;
+    font-size: 24px;
+}
+  
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+  }
+  
+  .nav-item.active {
+    border-bottom: 3px solid #FFF;
+  }
+
+
+
+/* *{
+    padding: 0;
+    margin: 0;
+}
+
+/*Barra de Navegação
+body{
+    font-family: 'Poppins',sans-serif;
+}
+
+.container-fluid{
+    background-color: #051D40;
+    font-size: 25px;
+    display: block;
+}
+
+.container-fluid a {
+    color: #fff;
+}
+
+.dropdown-menu {
+    background-color: #051D40;
+    font-size: 15px;
+}
+
+#nav-conteiner{
+    padding-top: 0;
+    padding-bottom: 0;
+
+}
+
+.nav-item {
+    margin: 15px;
+} */
