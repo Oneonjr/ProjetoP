@@ -68,16 +68,21 @@ body {
 
   /*Banner*/
 
+
   .conteudo {
     width: 799px;
-    height: 600px;
+    height: 100vh;
     background-image: linear-gradient( #fff 46%, #003140 46%);
     text-align: center;
   }
  
   #banner {
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 50px; 
+    background-image: linear-gradient( #fff 46.8%, #003140 43.6%);
+  }
+  #banner2 {
+    background-image: linear-gradient( #003140 46.8%, #fff 43.6%);
   }
 
   .conteudo h1 {
@@ -100,7 +105,7 @@ body {
     display: flex;
     align-items: center;
     margin-top: 75px;
-    
+    margin-left: 200px;
   }
 
   .cover{
@@ -148,4 +153,20 @@ body {
     border: none;
     padding: 0px 20px;
     cursor: pointer;
+  }
+  /*Sobre mim*/
+
+  #banner2{
+    height: 650px;
+  }
+
+  .conteudo2{
+    justify-content: center;
+  }
+
+  .conteudo2 h2{
+    margin-top: 60px;
+    font-size: 75px;
+    color: #ED5B2D;
+    font-weight: bold;
   }
