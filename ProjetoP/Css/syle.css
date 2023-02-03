@@ -36,7 +36,7 @@ body {
     padding: 0;
     color: #FFF;
     font-family: 'Poppins',sans-serif;
-    font-size: 25px;
+    font-size: 15px;
   }
   
   .navbar-brand:hover {
@@ -55,7 +55,7 @@ body {
 
   #navbar-links a {
     color: #FFF;
-    font-size: 24px;
+    font-size: 18px;
 }
   
   .navbar-expand-lg .navbar-nav .nav-link {
@@ -86,14 +86,14 @@ body {
   }
 
   .conteudo h1 {
-    font-size: 75px;
+    font-size: 50px;
     font-family: 'Poppins',sans-serif;
     margin-top: 75px;
     font-weight: bold;
   }
 
   .conteudo p {
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 15px;
     color: #ED5B2D;
     font-weight: bold;
@@ -157,16 +157,57 @@ body {
   /*Sobre mim*/
 
   #banner2{
-    height: 650px;
-  }
-
-  .conteudo2{
+    
+    padding: 5rem 8rem;
+    display: flex;
     justify-content: center;
   }
 
+  .conteudo2{
+    margin-left: 35%;
+    
+  }
+
   .conteudo2 h2{
-    margin-top: 60px;
     font-size: 75px;
     color: #ED5B2D;
     font-weight: bold;
+  }
+
+  .biografia {
+    font-size: 15px;
+    
+    font-family: 'Poppins',sans-serif;
+  }
+
+  .biografia h3 {
+    font-size: 20px;
+
+  }
+  .MinhaFt{
+    width: 250px;
+    border-radius: 10px;
+  }
+  
+  .biografia2{
+    font-size: 15px;
+    background-color: #003140;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .biografia2 p{
+    color: #FFF;
+    margin-bottom: 20px;
+  }
+  .biografia2 a{
+    background-color: #ED5B2D;
+    font-size: 15px;
+    color: #003140;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 5px;
+
   }
